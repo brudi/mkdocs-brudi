@@ -62,27 +62,90 @@ button[data-md-color-accent] {
   }
 }
 
+
+
+//
+// brudi Core
+//
+$clr-core-list: (
+  "base": #454545,
+  "50":   #E9E9E9,
+  "100":  #C7C7C7,
+  "200":  #A2A2A2,
+  "300":  #7D7D7D,
+  "400":  #616161,
+  "500":  #454545,
+  "600":  #3E3E3E,
+  "700":  #363636,
+  "800":  #2E2E2E,
+  "900":  #1F1F1F,
+  "a100": #F07A7A,
+  "a200": #EB4C4C,
+  "a400": #FF0505,
+  "a700": #EB0000
+);
+
+$clr-core:      map-get($clr-core-list, "base");
+
+$clr-core-50:   map-get($clr-core-list, "50");
+$clr-core-100:  map-get($clr-core-list, "100");
+$clr-core-200:  map-get($clr-core-list, "200");
+$clr-core-300:  map-get($clr-core-list, "300");
+$clr-core-400:  map-get($clr-core-list, "400");
+$clr-core-500:  map-get($clr-core-list, "500");
+$clr-core-600:  map-get($clr-core-list, "600");
+$clr-core-700:  map-get($clr-core-list, "700");
+$clr-core-800:  map-get($clr-core-list, "800");
+$clr-core-900:  map-get($clr-core-list, "900");
+$clr-core-a100: map-get($clr-core-list, "a100");
+$clr-core-a200: map-get($clr-core-list, "a200");
+$clr-core-a400: map-get($clr-core-list, "a400");
+$clr-core-a700: map-get($clr-core-list, "a700");
+
+
+//
+// brudi Mesh blue
+//
+$clr-mesh-list: (
+  "base": #478FCD,
+  "50":   #E9F2F9,
+  "100":  #C8DDF0,
+  "200":  #A3C7E6,
+  "300":  #7EB1DC,
+  "400":  #63A0D5,
+  "500":  #478FCD,
+  "600":  #4087C8,
+  "700":  #377CC1,
+  "800":  #2F72BA,
+  "900":  #2060AE,
+  "a100": #E8F2FF,
+  "a200": #E8F2FF,
+  "a400": #82B7FF,
+  "a700": #69A8FF
+);
+
+$clr-mesh:      map-get($clr-mesh-list, "base");
+
+$clr-mesh-50:   map-get($clr-mesh-list, "50");
+$clr-mesh-100:  map-get($clr-mesh-list, "100");
+$clr-mesh-200:  map-get($clr-mesh-list, "200");
+$clr-mesh-300:  map-get($clr-mesh-list, "300");
+$clr-mesh-400:  map-get($clr-mesh-list, "400");
+$clr-mesh-500:  map-get($clr-mesh-list, "500");
+$clr-mesh-600:  map-get($clr-mesh-list, "600");
+$clr-mesh-700:  map-get($clr-mesh-list, "700");
+$clr-mesh-800:  map-get($clr-mesh-list, "800");
+$clr-mesh-900:  map-get($clr-mesh-list, "900");
+$clr-mesh-a100: map-get($clr-mesh-list, "a100");
+$clr-mesh-a200: map-get($clr-mesh-list, "a200");
+$clr-mesh-a400: map-get($clr-mesh-list, "a400");
+$clr-mesh-a700: map-get($clr-mesh-list, "a700");
+
 // Build primary colors
 @each $name, $color in (
-  "red":         $clr-red-400,
-  "pink":        $clr-pink-500,
-  "purple":      $clr-purple-400,
-  "deep-purple": $clr-deep-purple-400,
-  "indigo":      $clr-indigo-500,
-  "blue":        $clr-blue-500,
-  "light-blue":  $clr-light-blue-500,
-  "cyan":        $clr-cyan-500,
-  "teal":        $clr-teal-500,
-  "green":       $clr-green-500,
-  "light-green": $clr-light-green-600,
-  "lime":        $clr-lime-600,
-  "yellow":      $clr-yellow-800,
-  "amber":       $clr-amber-700,
-  "orange":      $clr-orange-600,
-  "deep-orange": $clr-deep-orange-400,
-  "brown":       $clr-brown-500,
-  "grey":        $clr-grey-600,
-  "blue-grey":   $clr-blue-grey-600
+  "core":         $clr-core-500,
+  "mesh":         $clr-mesh-500,
+  "black":         $md-color-black,
 ) {
 
   // Color tile for presentation in theme documentation

@@ -1,7 +1,7 @@
 {
-  "name": "mkdocs-material",
-  "version": "4.1.1",
-  "description": "A Material Design theme for MkDocs",
+  "name": "mkdocs-brudi",
+  "version": "0.4.2",
+  "description": "A brudi theme for MkDocs based on mkdocs-brudi",
   "keywords": [
     "mkdocs",
     "documentation",
@@ -17,18 +17,18 @@
   ],
   "homepage": "https://squidfunk.github.io/mkdocs-material/",
   "bugs": {
-    "url": "https://github.com/squidfunk/mkdocs-material/issues",
+    "url": "https://github.com/brudi/mkdocs-brudi/issues",
     "email": "martin.donath@squidfunk.com"
   },
   "license": "MIT",
   "author": {
-    "name": "Martin Donath",
-    "email": "martin.donath@squidfunk.com"
+    "name": "brudi",
+    "email": "admin@brudi.io"
   },
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/squidfunk/mkdocs-material.git"
+    "url": "https://github.com/brudi/mkdocs-brudi.git"
   },
   "scripts": {
     "build": "make clean build",
@@ -56,7 +56,7 @@
     "custom-event-polyfill": "^1.0.6",
     "customizr": "^1.2.1",
     "escape-string-regexp": "^1.0.5",
-    "eslint": "^5.16.0",
+    "eslint": "^5.15.3",
     "event-hooks-webpack-plugin": "^2.1.1",
     "expose-loader": "^0.7.4",
     "extract-loader": "^3.1.0",

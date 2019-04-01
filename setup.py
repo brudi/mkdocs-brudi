@@ -54,7 +54,7 @@ setup(
     install_requires = install_requires,
     entry_points = {
         "mkdocs.themes": [
-            "material = material",
+            "brudi = brudi",
         ]
     },
     zip_safe = False

@@ -22,11 +22,11 @@
 site_name: Material for MkDocs
 site_description: A Material Design theme for MkDocs
 site_author: Martin Donath
-site_url: https://squidfunk.github.io/mkdocs-material/
+site_url: https://github.com/brudi/mkdocs-brudi/
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: brudi/mkdocs-brudi
+repo_url: https://github.com/brudi/mkdocs-brudi
 edit_uri: ""
 
 # Copyright
@@ -35,7 +35,7 @@ copyright: 'Copyright &copy; 2016 - 2019 Martin Donath'
 # Configuration
 theme:
   name: null
-  custom_dir: material
+  custom_dir: brudi
 
   # 404 page
   static_templates:
@@ -94,7 +94,7 @@ markdown_extensions:
   - pymdownx.magiclink:
       repo_url_shorthand: true
       user: squidfunk
-      repo: mkdocs-material
+      repo: mkdocs-brudi
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences

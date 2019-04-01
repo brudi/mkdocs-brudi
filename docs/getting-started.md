@@ -33,7 +33,7 @@ Material requires MkDocs >= 0.17.1.
 Material can be installed with `pip`:
 
 ``` sh
-pip install mkdocs-material
+pip install mkdocs-brudi
 ```
 
 #### using choco
@@ -41,13 +41,13 @@ pip install mkdocs-material
 If you're on Windows you can use [Chocolatey][2] to install [Material][3]:
 
 ``` dos
-choco install mkdocs-material
+choco install mkdocs-brudi
 ```
 
 This will install all required dependencies like [Python][4] and [MkDocs][5].
 
   [2]: https://chocolatey.org
-  [3]: https://chocolatey.org/packages/mkdocs-material
+  [3]: https://chocolatey.org/packages/mkdocs-brudi
   [4]: https://chocolatey.org/packages/python
   [5]: https://chocolatey.org/packages/mkdocs
 
@@ -57,12 +57,12 @@ Material can also be used without a system-wide installation by cloning the
 repository into a subfolder of your project's root directory:
 
 ``` sh
-git clone https://github.com/squidfunk/mkdocs-material.git
+git clone https://github.com/brudi/mkdocs-brudi.git
 ```
 
 This is especially useful if you want to [extend the theme][6] and
 [override some parts][7] of the theme. The theme will reside in the folder
-`mkdocs-material/material`.
+`mkdocs-brudi/brudi`.
 
   [6]: customization.md#extending-the-theme
   [7]: customization.md#overriding-partials
@@ -83,7 +83,7 @@ This is especially useful if you want to [extend the theme][6] and
       to a self-contained solution by installing Python with Homebrew. This
       should eliminate a lot of problems you may be having with `pip`.
 
-!!! failure "Error: unrecognized theme 'material'"
+!!! failure "Error: unrecognized theme 'brudi'"
 
     If you run into this error, the most common reason is that you installed
     MkDocs through some package manager (e.g. Homebrew or `apt-get`) and the
@@ -97,20 +97,20 @@ comes with all dependencies pre-installed and ready-to-use with the latest
 version published on PyPI, packaged in a very small image. Pull it with:
 
 ```
-docker pull squidfunk/mkdocs-material
+docker pull brudi/mkdocs-brudi
 ```
 
 The `mkdocs` executable is provided as an entrypoint, `serve` is the default
 command. Start the development server in your project root with:
 
 ```
-docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+docker run --rm -it -p 8000:8000 -v ${PWD}:/docs brudi/mkdocs-brudi
 ```
 
 If you're using Windows command prompt (`cmd.exe`), substitute `${PWD}` with
 `"%cd%"`.
 
-  [8]: https://hub.docker.com/r/squidfunk/mkdocs-material/
+  [8]: https://hub.docker.com/r/brudi/mkdocs-brudi/
 
 ## Usage
 
@@ -119,7 +119,7 @@ project's `mkdocs.yml`. If you installed Material using a package manager:
 
 ``` yaml
 theme:
-  name: 'material'
+  name: 'brudi'
 ```
 
 If you cloned Material from GitHub:
@@ -127,7 +127,7 @@ If you cloned Material from GitHub:
 ``` yaml
 theme:
   name: null
-  custom_dir: 'mkdocs-material/material'
+  custom_dir: 'mkdocs-brudi/brudi'
 ```
 
 MkDocs includes a development server, so you can review your changes as you go.
@@ -293,7 +293,7 @@ theme:
     icon: 'cloud'
 ```
 
-  [15]: https://material.io/icons/
+  [15]: https://brudi.io/icons/
 
 ### Language
 
@@ -537,8 +537,8 @@ To include a link to the repository of your project within your documentation,
 set the following variables via your project's `mkdocs.yml`:
 
 ``` yaml
-repo_name: 'squidfunk/mkdocs-material'
-repo_url: 'https://github.com/squidfunk/mkdocs-material'
+repo_name: 'brudi/mkdocs-brudi'
+repo_url: 'https://github.com/brudi/mkdocs-brudi'
 ```
 
 The name of the repository will be rendered next to the search bar on big
@@ -689,18 +689,18 @@ Below is a full example configuration for a `mkdocs.yml`:
 site_name: 'Material for MkDocs'
 site_description: 'A Material Design theme for MkDocs'
 site_author: 'Martin Donath'
-site_url: 'https://squidfunk.github.io/mkdocs-material/'
+site_url: 'https://github.com/brudi/mkdocs-brudi/'
 
 # Repository
-repo_name: 'squidfunk/mkdocs-material'
-repo_url: 'https://github.com/squidfunk/mkdocs-material'
+repo_name: 'brudi/mkdocs-brudi'
+repo_url: 'https://github.com/brudi/mkdocs-brudi'
 
 # Copyright
 copyright: 'Copyright &copy; 2016 - 2017 Martin Donath'
 
 # Configuration
 theme:
-  name: 'material'
+  name: 'brudi'
   language: 'en'
   palette:
     primary: 'indigo'

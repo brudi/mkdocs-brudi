@@ -44,7 +44,7 @@ set -e
 
 # Deploy documentation to GitHub pages
 if [ "$TRAVIS_BRANCH" == "master" -a "$TRAVIS_PULL_REQUEST" == "false" ]; then
-  REMOTE="https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material"
+  REMOTE="https://${GH_TOKEN}@github.com/brudi/mkdocs-brudi"
 
   # Set configuration for repository and deploy documentation
   git config --global user.name "${GH_NAME}"
@@ -55,8 +55,8 @@ if [ "$TRAVIS_BRANCH" == "master" -a "$TRAVIS_PULL_REQUEST" == "false" ]; then
   python setup.py install
 
   # # Override theme configuration
-  # sed -i 's/name: null/name: material/g' mkdocs.yml
-  # sed -i 's/custom_dir: material/custom_dir: overrides/g' mkdocs.yml
+  # sed -i 's/name: null/name: brudi/g' mkdocs.yml
+  # sed -i 's/custom_dir: brudi/custom_dir: overrides/g' mkdocs.yml
 
   # Build documentation with overrides and publish to GitHub pages
   mkdocs gh-deploy --force
@@ -77,7 +77,7 @@ python setup.py build sdist bdist_wheel --universal
 docker build -t ${TRAVIS_REPO_SLUG} .
 
 # Test Docker image build
-docker run --rm -it -v $(pwd):/docs ${TRAVIS_REPO_SLUG} build --theme material
+docker run --rm -it -v $(pwd):/docs ${TRAVIS_REPO_SLUG} build --theme brudi
 
 # Push release to PyPI
 twine upload -u ${PYPI_USERNAME} -p ${PYPI_PASSWORD} dist/*

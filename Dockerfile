@@ -24,7 +24,7 @@ FROM python:3.6.8-alpine3.9
 WORKDIR /tmp
 
 # Copy files necessary for build
-COPY material material
+COPY brudi brudi
 COPY MANIFEST.in MANIFEST.in
 COPY package.json package.json
 COPY requirements.txt requirements.txt

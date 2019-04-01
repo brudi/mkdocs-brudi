@@ -33,7 +33,7 @@ import lunr from "expose-loader?lunr!lunr"
  * Documentation may contain code JavaScript code snippets which would get
  * executed when inserted into the DOM as plain HTML.
  *
- * See https://github.com/squidfunk/mkdocs-material/issues/906
+ * See https://github.com/brudi/mkdocs-brudi/issues/906
  *
  * @param {string} html - HTML string
  *

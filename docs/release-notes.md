@@ -5,13 +5,13 @@
 To upgrade Material to the latest version, use `pip`:
 
 ``` sh
-pip install --upgrade mkdocs-material
+pip install --upgrade mkdocs-brudi
 ```
 
 To inspect the currently installed version, use the following command:
 
 ``` sh
-pip show mkdocs-material
+pip show mkdocs-brudi
 ```
 
 ### Material 3.x to 4.x
@@ -27,7 +27,7 @@ pip show mkdocs-material
   but `20px`. To learn more about the problem and implications, please refer
   to [the issue][2] in which the problem was discovered and fixed.
 
-  [2]: https://github.com/squidfunk/mkdocs-material/issues/911
+  [2]: https://github.com/brudi/mkdocs-brudi/issues/911
 
 ### Material 2.x to 3.x
 

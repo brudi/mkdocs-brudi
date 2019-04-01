@@ -41,7 +41,7 @@ html {
   // size of 12 if the system language is set to Chinese. For this reason we
   // just double the font-size, set it to 20px which seems to do the trick.
   //
-  // See https://github.com/squidfunk/mkdocs-material/issues/911
+  // See https://github.com/brudi/mkdocs-brudi/issues/911
   font-size: 125%;
   // Hack: some browsers on some operating systems don't account for scroll
   // bars when firing media queries, so we need to do this for safety. This

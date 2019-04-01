@@ -12,7 +12,7 @@ executed during compilation of the Markdown file.
 
   [1]: https://python-markdown.github.io/extensions/code_hilite/
   [2]: http://pygments.org
-  [3]: https://hub.docker.com/r/squidfunk/mkdocs-material/
+  [3]: https://hub.docker.com/r/brudi/mkdocs-brudi/
 
 ## Installation
 
@@ -699,10 +699,10 @@ module.exports = _extends(exports['default'], exports);
 
 ``` json
 {
-  "name": "mkdocs-material",
+  "name": "mkdocs-brudi",
   "version": "0.2.4",
   "description": "A Material Design theme for MkDocs",
-  "homepage": "http://squidfunk.github.io/mkdocs-material/",
+  "homepage": "http://github.com/brudi/mkdocs-brudi/",
   "authors": [
     "squidfunk <martin.donath@squidfunk.com>"
   ],

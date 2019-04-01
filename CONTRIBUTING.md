@@ -10,7 +10,7 @@ you do, please read the following guidelines.
 For quick questions there's no need to open an issue as you can reach us on
 [gitter.im][1].
 
-  [1]: https://gitter.im/squidfunk/mkdocs-material
+  [1]: https://gitter.im/brudi/mkdocs-brudi
 
 ### Found a bug?
 
@@ -19,7 +19,7 @@ to the [issue tracker][2] in our GitHub repository. Even better, you can submit
 a Pull Request with a fix. However, before doing so, please read the
 [submission guidelines][3].
 
-  [2]: https://github.com/squidfunk/mkdocs-material/issues
+  [2]: https://github.com/brudi/mkdocs-brudi/issues
   [3]: #submission-guidelines
 
 ### Missing a feature?
@@ -71,12 +71,12 @@ go ahead.
   all times be installable through GitHub.
 
 3. **Pull Request**: After building the theme, commit the compiled output, push
-  your branch to GitHub and send a PR to `mkdocs-material:master`. If we
+  your branch to GitHub and send a PR to `mkdocs-brudi:master`. If we
   suggest changes, make the required updates, rebase your branch and push the
   changes to your GitHub repository, which will automatically update your PR.
 
 After your PR is merged, you can safely delete your branch and pull the changes
 from the main (upstream) repository.
 
-  [4]: https://squidfunk.github.io/mkdocs-material/customization/#environment-setup
-  [5]: https://squidfunk.github.io/mkdocs-material/customization/#build-process
+  [4]: https://github.com/brudi/mkdocs-brudi/customization/#environment-setup
+  [5]: https://github.com/brudi/mkdocs-brudi/customization/#build-process

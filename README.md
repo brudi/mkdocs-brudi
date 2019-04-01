@@ -4,14 +4,14 @@
 [![PyPI][pypi-image]][pypi-link]
 [![dependabot][dependabot-image]][dependabot-link]
 
-  [travis-image]: https://travis-ci.org/squidfunk/mkdocs-material.svg?branch=master
-  [travis-link]: https://travis-ci.org/squidfunk/mkdocs-material
-  [downloads-image]: https://img.shields.io/pypi/dm/mkdocs-material.svg
-  [downloads-link]: https://pypistats.org/packages/mkdocs-material
-  [gitter-image]: https://badges.gitter.im/squidfunk/mkdocs-material.svg
-  [gitter-link]: https://gitter.im/squidfunk/mkdocs-material
-  [pypi-image]: https://img.shields.io/pypi/v/mkdocs-material.svg
-  [pypi-link]: https://pypi.python.org/pypi/mkdocs-material
+  [travis-image]: https://travis-ci.org/brudi/mkdocs-brudi.svg?branch=master
+  [travis-link]: https://travis-ci.org/brudi/mkdocs-brudi
+  [downloads-image]: https://img.shields.io/pypi/dm/mkdocs-brudi.svg
+  [downloads-link]: https://pypistats.org/packages/mkdocs-brudi
+  [gitter-image]: https://badges.gitter.im/brudi/mkdocs-brudi.svg
+  [gitter-link]: https://gitter.im/brudi/mkdocs-brudi
+  [pypi-image]: https://img.shields.io/pypi/v/mkdocs-brudi.svg
+  [pypi-link]: https://pypi.python.org/pypi/mkdocs-brudi
   [dependabot-image]: https://img.shields.io/badge/dependabot-enabled-06f.svg
   [dependabot-link]: https://dependabot.com
 
@@ -19,24 +19,24 @@
 
 A Material Design theme for [MkDocs][1].
 
-[![Material for MkDocs](https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/docs/assets/images/material.png)][2]
+[![Material for MkDocs](https://raw.githubusercontent.com/brudi/mkdocs-brudi/master/docs/assets/images/material.png)][2]
 
   [1]: https://www.mkdocs.org
-  [2]: https://squidfunk.github.io/mkdocs-material/
+  [2]: https://github.com/brudi/mkdocs-brudi/
 
 ## Quick start
 
 Install the latest version of Material with `pip`:
 
 ``` sh
-pip install mkdocs-material
+pip install mkdocs-brudi
 ```
 
 Append the following line to your project's `mkdocs.yml`:
 
 ``` yaml
 theme:
-  name: 'material'
+  name: 'brudi'
 ```
 
 ## What to expect
@@ -54,7 +54,7 @@ theme:
   highlighting and lazy loading.
 
 For detailed installation instructions and a demo, visit
-https://squidfunk.github.io/mkdocs-material/
+https://github.com/brudi/mkdocs-brudi/
 
 ## License
 

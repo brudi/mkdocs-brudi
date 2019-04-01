@@ -16,7 +16,7 @@ guidelines.
 Install the latest version of Material with `pip`:
 
 ``` sh
-pip install mkdocs-material
+pip install mkdocs-brudi
 ```
 
 Append the following line to your project's `mkdocs.yml`:

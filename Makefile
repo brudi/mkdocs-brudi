@@ -33,7 +33,7 @@ node_modules:
 # -----------------------------------------------------------------------------
 
 # Build theme for distribution with Webpack
-material: $(shell find src) .babelrc webpack.config.js
+brudi: $(shell find src) .babelrc webpack.config.js
 	$(shell npm bin)/webpack --mode production
 
 # -----------------------------------------------------------------------------
@@ -41,11 +41,11 @@ material: $(shell find src) .babelrc webpack.config.js
 # -----------------------------------------------------------------------------
 
 # Build distribution files
-build: node_modules material
+build: node_modules brudi
 
 # Clean distribution files
 clean:
-	rm -rf material
+	rm -rf brudi
 
 # Lint source files
 lint: node_modules
@@ -58,7 +58,7 @@ watch-webpack: node_modules clean
 
 # Serve documentation with MkDocs
 watch-mkdocs: clean
-	while [ ! -d "./material" ]; do sleep 1; done
+	while [ ! -d "./brudi" ]; do sleep 1; done
 	mkdocs serve
 
 # Run Webpack and MkDocs in watch mode

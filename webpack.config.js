@@ -89,7 +89,7 @@ module.exports = (_env, args) => { // eslint-disable-line complexity
                   args.mode === "production" ? ".[md5:hash:hex:8]" : ""
                 }.css`,
                 outputPath: "assets/stylesheets",
-                publicPath: path.resolve(__dirname, "material")
+                publicPath: path.resolve(__dirname, "brudi")
               }
             },
             "extract-loader",
@@ -137,7 +137,7 @@ module.exports = (_env, args) => { // eslint-disable-line complexity
 
     /* Output */
     output: {
-      path: path.resolve(__dirname, "material"),
+      path: path.resolve(__dirname, "brudi"),
       filename: `[name]${args.mode === "production" ? ".[chunkhash]" : ""}.js`,
       hashDigestLength: 8,
       libraryTarget: "window"
@@ -309,7 +309,7 @@ module.exports = (_env, args) => { // eslint-disable-line complexity
       /* Apply manifest */
       new EventHooksPlugin({
         afterEmit: new CallbackTask((compilation, cb) => {
-          const manifest = require(path.resolve("material/manifest.json"))
+          const manifest = require(path.resolve("brudi/manifest.json"))
           Object.keys(compilation.assets).forEach(name => {
             if (name.match(/\.html/)) {
               const asset = compilation.assets[name]

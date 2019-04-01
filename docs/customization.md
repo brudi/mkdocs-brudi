@@ -182,13 +182,13 @@ In order to start development on the Material theme, a [Node.js][8] version of
 at least 8 is required. First, clone the repository:
 
 ``` sh
-git clone https://github.com/squidfunk/mkdocs-material
+git clone https://github.com/brudi/mkdocs-brudi
 ```
 
 Next, all dependencies need to be installed, which is done with:
 
 ``` sh
-cd mkdocs-material
+cd mkdocs-brudi
 pip install -r requirements.txt
 npm install
 ```
@@ -234,7 +234,7 @@ npm run build
 
 This triggers the production-level compilation and minification of all
 stylesheets and JavaScript sources. When the command exits, the final theme is
-located in the `material` directory. Add the `theme_dir` variable pointing to
+located in the `brudi` directory. Add the `theme_dir` variable pointing to
 the aforementioned directory in your original `mkdocs.yml`.
 
 Now you can run `mkdocs build` and you should see your documentation with your
