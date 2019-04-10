@@ -20,5 +20,5 @@ venv
 /mkdocs_brudi.egg-info
 
 # IDEs
-.vscode
-.idea
+.vscode/
+.idea/

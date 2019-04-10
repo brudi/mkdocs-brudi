@@ -39,6 +39,14 @@ theme:
   name: 'brudi'
 ```
 
+## Build and release
+```
+npm run build
+pip install wheel twine
+python setup.py build sdist bdist_wheel --universal
+```
+
+
 ## What to expect
 
 * Responsive design and fluid layout for all kinds of screens and devices,
