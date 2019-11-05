@@ -122,6 +122,7 @@
 
   // Header topics
   &__topic {
+    transform: translateX(px2rem(-16px));
     display: block;
     position: absolute;
     transition:
@@ -133,7 +134,7 @@
 
     // Page title
     & + & {
-      transform: translateX(px2rem(25px));
+      transform: translateX(px2rem(41px));
       transition:
         transform 0.4s cubic-bezier(1, 0.7, 0.1, 0.1),
         opacity   0.15s;
@@ -143,7 +144,7 @@
 
       // Adjust for RTL languages
       [dir="rtl"] & {
-        transform: translateX(px2rem(-25px));
+        transform: translateX(px2rem(-41px));
       }
     }
 
@@ -166,7 +167,7 @@
 
     // Show page title
     &[data-md-state="active"] .md-header-nav__topic {
-      transform: translateX(px2rem(-25px));
+      transform: translateX(px2rem(-41px));
       transition:
         transform 0.4s cubic-bezier(1, 0.7, 0.1, 0.1),
         opacity   0.15s;
@@ -176,12 +177,12 @@
 
       // Adjust for RTL languages
       [dir="rtl"] & {
-        transform: translateX(px2rem(25px));
+        transform: translateX(px2rem(41px));
       }
 
       // Page title
       & + .md-header-nav__topic {
-        transform: translateX(0);
+        transform: translateX(px2rem(-16px));
         transition:
           transform 0.4s cubic-bezier(0.1, 0.7, 0.1, 1),
           opacity   0.15s;

@@ -1,6 +1,7 @@
 hero: Metadata enables hero teaser texts
 path: tree/master/docs/extensions
 source: metadata.md
+header: Special Header
 
 # Metadata
 

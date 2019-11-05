@@ -14,8 +14,10 @@ venv
 /brudi/manifest.json
 /MANIFEST
 /site
+yarn-error.log
 
 # Distribution files
+/brudi
 /dist
 /mkdocs_brudi.egg-info
 

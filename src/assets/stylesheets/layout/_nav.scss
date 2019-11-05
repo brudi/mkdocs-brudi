@@ -227,6 +227,8 @@
 
         // Site title in main navigation
         &--site {
+          padding: 14px 0 0 80px;
+          font-size: 28px;
           position: relative;
           background-color: $md-color-primary;
           color: $md-color-white;
