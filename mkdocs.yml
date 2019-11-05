@@ -59,6 +59,12 @@ theme:
   logo:
     icon: "\uE80C"
 
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
 # Customization
 extra:
   social:

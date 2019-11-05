@@ -50,7 +50,7 @@ python setup.py build sdist bdist_wheel --universal
 ## What to expect
 
 * Responsive design and fluid layout for all kinds of screens and devices,
-  designed to serve your project documentation in a user-friendly way in 35
+  designed to serve your project documentation in a user-friendly way in 39
   languages with optimal readability.
 
 * Easily customizable primary and accent color, fonts, favicon and logo;

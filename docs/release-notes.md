@@ -64,6 +64,52 @@ pip show mkdocs-brudi
 
 ## Changelog
 
+### 4.4.3 <small>_ October 3, 2019</small>
+
+* Added Estonian translations
+* Fixed removal of copyright banners in minified JavaScript
+* Removed unnecessary title attributes from links in table of contents
+
+### 4.4.2 <small>_ August 27, 2019</small>
+
+* Added Afrikaans translations
+* Fixed broken page title when `h1` contained HTML tags
+* Improved accessibility for IE users
+* Removed unnecessary `title` attributes from links in navigation
+
+### 4.4.1 <small>_ August 22, 2019</small>
+
+* Added support for `black` as a primary color
+* Fixed broken footer bar when `h1` contained HTML tags
+
+### 4.4.0 <small>_ June 15, 2019</small>
+
+* Added Slovenian translations
+* Reverted template minification in favor of `mkdocs-minify-plugin`
+* Fixed #1114: Tabs don't reappear when default `font-size` is smaller than `16`
+
+### 4.3.1 <small>_ May 23, 2019</small>
+
+* Fixed spelling error in Danish translations
+
+### 4.3.0 <small>_ May 17, 2019</small>
+
+* Added support for changing header through metadata title property
+* Added `font-display: swap` to Google Font loading logic
+* Removed whitespace from templates, saving `4kb` (`.7kb` gzipped) per request
+* Fixed alignment of repository icons on tablet and desktop
+
+### 4.2.0 <small>_ April 28, 2019</small>
+
+* Added Norwegian (Nynorsk) translations
+* Fixed loss of focus in non-form input elements due to search hotkeys
+* Fixed #1067: Search hotkeys not working for mobile/tablet screensize
+* Fixed #1068: Search not correctly aligned for tablet screensize
+
+### 4.1.2 <small>_ April 16, 2019</small>
+
+* Fixed #1072: HTML tags appearing in navigation link titles
+
 ### 4.1.1 <small>_ March 28, 2019</small>
 
 * Fixed minor CSS errors detected during validation
